@@ -1,0 +1,30 @@
+{
+  "name": "Blog Starter",
+  "version": "1.0.0",
+  "description": "A starter app for nateatnts/base-blog",
+  "license": "UNLICENSED",
+  "private": true,
+  "author": "Nate Bate",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^6.0.34",
+    "lazysizes": "^5.2.0",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.18",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "serve": "npm run watch",
+    "hot": "mix watch --hot",
+    "production": "mix --production",
+    "build": "npm run production",
+    "prod": "npm run production"
+  }
+}

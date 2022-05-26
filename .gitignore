@@ -1,0 +1,9 @@
+
+vendor
+.env
+.idea
+node_modules
+runtime
+
+public/assets
+secure_files

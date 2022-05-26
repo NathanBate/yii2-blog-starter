@@ -1,0 +1,10 @@
+{
+    "name": "nateatnts/blog-starter",
+    "description": "A starter project for nateatnts/base-blog",
+    "keywords": [
+        "Web App"
+    ],
+    "require": {
+        "nateatnts/base-blog": "~1.0"
+    }
+}
